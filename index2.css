@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    height: 100px;
+    width:auto;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 30px #7b7b7b29;
+  }
+  
+  .task {
+    position: absolute;
+    top: 3%;
+    left: 14%;
+    color: rgb(0, 195, 255);
+  }
+  
+  .list {
+    position: absolute;
+    top: 3%;
+    left: 22%;
+  }
+  i {
+    position: relative;
+    top: 20px;
+    left: 60%;
+  }
+  
+  .add-new-task {
+    font-size: 30px;
+    position: relative;
+    top: 13px;
+    left: 60%;
+  }
+  
+  .container {
+    position: relative;
+    height: 48rem;
+    width: 70rem;
+  }
+  
+  .card1 {
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 17rem;
+    width: 18rem;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    top: 4rem;
+  }
+  
+  .text {
+    color: #00a5ec;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .form {
+    position: relative;
+    top: 1.5rem;
+    left: 0rem;
+    border-top: 1px solid lightgrey;
+    margin: 0rem;
+    padding: 1rem;
+  }
+  
+  input[type="checkbox"] {
+    accent-color: #ededed;
+  }
+  
+  strike {
+    color: #c2c2c2;
+  } 
+  
+  /* card 2 */
+  
+   .card2 {
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 17rem;
+    width: 18rem;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    top: 4rem;
+    left: 0.5em;
+  } 
+  
+  /* card3 */
+  
+  .card3 {
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 17rem;
+    width: 18rem;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    top: 4rem;
+    left: 1rem;
+  }
+  
+  /* card4 */
+  
+   .card4 {
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 17rem;
+    width: 18rem;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    top: 5rem;
+    left: 0.5px;
+  } 
+   .card5 {
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 17rem;
+    width: 18rem;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    top: 5rem;
+    left: 0.5rem;
+  }
+  
+  .notShow{
+      filter: opacity(30%);
+  }
+  
+  .input{
+      border:1px solid lightgrey;
+      border-radius:5px;
+      background-color: white;
+      position:absolute;
+      top:20%;
+      left:30%;
+      height:18%;
+      width:18%;
+  } 
+   .title{
+      font-weight:bold;
+      border-bottom:1px solid lightgrey;
+      font-size:1.2rem;
+      display: block;
+      margin:0;
+      padding-left:1rem;
+      padding-top:0.5rem;
+  } 
+  
+   input[type="text"]{
+      background-color: rgb(235, 229, 229);
+      border: 1px solid rgb(243, 243, 243);
+      border-radius:5px;
+      position:relative;
+      top:2rem;
+      left:1rem;
+      width:19rem;
+      margin:0;
+      padding:0;
+  } 
+  
+   button{
+      position: relative;
+      top:3rem;
+      left:12rem;
+      border: 1px hidden ;
+      background-color: #00A5EC;
+      width:8rem;
+      height:2rem;
+      border-radius:5px;
+  }  
+
+  #c{
+    color:rgb(2, 2, 2); position:absolute; top:5px; left: 18rem;
+  }
+
+  #plus{
+    color:rgb(255, 255, 255); position: absolute; top:0.5rem;left:1rem
+  }
+  
+
+   @media(max-width:600px){
+    
+    .header{
+      width:22rem;
+      /* height:40%; */
+    }
+    .task {
+       position: absolute;
+       top:1rem;
+       left:1rem;
+    }
+    .list{
+      position: absolute;
+      top:1rem;
+      left:10rem
+    }
+
+    .add-new-task{
+      display:none;
+    }
+
+    #plus{
+      position: absolute;
+      top:8rem;
+      left:11rem;
+    }
+
+    .container{
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction:column;
+    }
+
+    .card1{
+      height:40%;
+      width:25%;
+      position:absolute;
+      top:8rem;
+      left:1rem;
+    }
+
+    .card2{
+      height:40%;
+      width:30%;
+      position:absolute;
+      top:28rem;;
+      left:1rem;
+
+    }
+    .card3{
+      height:40%;
+      width:30%;
+      position:absolute;
+      left:1rem;
+      top:48rem;
+    }
+    .card4{
+      display: none;;
+    }
+    
+    .card5{
+     display: none;
+    }
+    
+     .input{
+      height:50vw;
+      width:90%;
+      position:absolute;
+      top:16rem;
+      left:1rem;
+     }
+     
+     .title{
+      font-size:5x;
+      
+     }
+
+     #c{
+      position: absolute;
+      top:12.5px;
+      left:14rem;
+     }
+
+     input[type="text"]{
+      width:15rem;
+     }
+
+   button{
+    font-size: 14px;
+    height:2rem;;
+    position: absolute;
+    top:6.5rem;
+    left:8rem;
+   }
+   }
